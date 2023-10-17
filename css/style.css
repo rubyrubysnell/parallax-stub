@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+
+}
+
+.p-img{
+    /* background image styling */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* flex set up */
+    display: flex;
+    /* centering it along the primary axis - horizontal by default */
+    justify-content: center;
+    /* vertical alignment */
+    align-items: center;
+}
+
+#p1{
+    height: 100vh;
+    background-image: url("../images/IMG_20231002_165913.jpg");
+}
+
+#p2{
+    height: 700px;
+    background-image: url(../images/IMG_20220522_104718.jpg);
+}
+
+#p3{
+    height: 700px;
+    background-image: url(../images/IMG_20221029_152114.jpg);
+}
+
+#p4{
+    height: 100vh;
+    background-image: url(../images/IMG_20231011_165928.jpg);
+}
+
+.p-text-container{
+    /* background-color: black; */
+    height: 80px;
+    padding: 20px;
+}
+
+.p-title{
+    color: #d8b2c4;
+    font-family: 'Young Serif', serif;
+    font-size: 70px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 8px 8px 8px #3a4450;
+}
+
+.section{
+    background-color: #d8b2c4;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-title{
+    font-family: 'Young Serif', serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #3a4450;
+}
+
+.section-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    color: #3a4450;
+}
